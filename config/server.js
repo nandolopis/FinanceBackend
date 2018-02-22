@@ -13,6 +13,8 @@ server.listen(port, function(){
     console.log(`BACKEMD is running on port ${port}.`)
 })
 
+module.exports = server
+
 /*
 server.use(function(req, res, next){
    console.log('meu middleware 1')
